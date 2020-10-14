@@ -13,6 +13,8 @@
     <string name="next">Next</string>
     <string name="done">Done</string>
     <string name="save_exercise">Save exercise</string>
-    <string name="about_me">Simas Stasys, simas.stasys@gmail.com</string>
+    <string name="creatorEmail">simas.stasys@gmail.com</string>
+    <string name="creatorName">Simas Stasys</string>
+    <string name="aboutApp">This is a simple project to help out you in the gym! I hope it helps you to gain mad gains!</string>
     <string name="about">About creator</string>
 </resources>

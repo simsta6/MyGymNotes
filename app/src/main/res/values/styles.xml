@@ -7,4 +7,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ButtonsTheme">
+
+    </style>
+
+    <style name="subtitle1Text">
+        <item name="android:layout_marginStart">@dimen/horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/vertical_margin</item>
+        <item name="android:layout_marginEnd">@dimen/horizontal_margin</item>
+        <item name="android:fontFamily">@font/work_sans_regular</item>
+        <item name="android:textColor">#505255</item>
+    </style>
+
 </resources>
