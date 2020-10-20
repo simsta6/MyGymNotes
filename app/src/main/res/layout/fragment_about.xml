@@ -25,7 +25,7 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView2"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/horizontal_margin"
                 app:cardCornerRadius="8dp"
@@ -62,11 +62,11 @@
 
                     <TextView
                         android:id="@+id/aboutText"
-                        style="@style/subtitle1Text"
+                        style="@style/body2Text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:alpha="0.6"
                         android:layout_margin="@dimen/horizontal_margin"
+                        android:fontFamily="@font/rubik_regular"
                         android:text="@string/aboutApp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
