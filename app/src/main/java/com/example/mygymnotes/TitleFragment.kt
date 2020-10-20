@@ -15,8 +15,13 @@ class TitleFragment : Fragment() {
 
         val binding: FragmentTitleBinding = DataBindingUtil.inflate(
             inflater, R.layout.fragment_title, container, false)
+
         binding.listOfWorkoutsBtn.setOnClickListener (
             Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_workoutsFragment)
+        )
+
+        binding.aboutBtn.setOnClickListener (
+            Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_aboutFragment)
         )
 
         return binding.root

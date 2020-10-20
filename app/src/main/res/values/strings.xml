@@ -19,4 +19,6 @@
     <string name="about">About</string>
     <string name="email_us">Email Us</string>
     <string name="github">GitHub</string>
+    <string name="date">2020–10–10</string>
+    <string name="workoutName">Workout name</string>
 </resources>
