@@ -6,7 +6,7 @@
     <string name="fragment_edit_workout">Edit Workout</string>
     <string name="fragment_add_exercise">Add Exercise</string>
 
-    <string name="workouts_list">List of workouts</string>
+    <string name="workouts_list">Choose a workout</string>
     <string name="edit_workout">Edit workout</string>
     <string name="add_exercise">Add exercise</string>
     <string name="start_workout">Start workout</string>
