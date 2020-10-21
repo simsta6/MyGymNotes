@@ -21,4 +21,7 @@
     <string name="github">GitHub</string>
     <string name="date">2020–10–10</string>
     <string name="workoutName">Workout name</string>
+    <string name="weight_intensity">Weight/Intensity</string>
+    <string name="sets">Sets:</string>
+    <string name="repetition">Repetition:</string>
 </resources>
