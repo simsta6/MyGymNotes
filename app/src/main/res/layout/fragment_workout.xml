@@ -7,27 +7,40 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/editWorkoutBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/transparent_btn"
+            android:layout_marginBottom="16dp"
             android:text="@string/edit_workout"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/startWorkoutBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/startWorkoutBtn"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+            app:layout_constraintVertical_chainStyle="packed" />
 
         <Button
             android:id="@+id/startWorkoutBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="48dp"
+            style="@style/transparent_btn"
+            android:layout_marginTop="16dp"
+            android:alpha="0.5"
             android:text="@string/start_workout"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintEnd_toEndOf="@+id/editWorkoutBtn"
+            app:layout_constraintStart_toStartOf="@+id/editWorkoutBtn"
+            app:layout_constraintTop_toBottomOf="@+id/editWorkoutBtn" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
