@@ -12,6 +12,16 @@
         tools:context=".WorkoutsFragment">
 
 
+        <Button
+            android:id="@+id/testBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="@+id/workouts_list"
+            app:layout_constraintEnd_toEndOf="@+id/workouts_list"
+            app:layout_constraintStart_toStartOf="@+id/workouts_list"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/workouts_list"
             android:layout_width="match_parent"

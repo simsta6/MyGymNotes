@@ -30,6 +30,10 @@ class WorkoutsFragment : Fragment() {
             inflater, R.layout.fragment_workouts, container, false
         )
 
+        binding.testBtn.setOnClickListener (
+            Navigation.createNavigateOnClickListener(R.id.action_workoutsFragment_to_workoutFragment)
+        )
+
         binding.workoutsList.adapter = WorkoutAdapter(workouts)
 
         postToList()
